@@ -27,6 +27,6 @@ Paper Reader 帮你找到论文，帮你读论文，帮你写论文。
 - [ ] 论文阅读笔记整理
 - [ ] 论文写作辅助
 
-## 开源协议
+## 界面展示
 
-[MIT](https://github.com/qwen-ai/paper-reader/blob/main/LICENSE) © [qwen-ai](https://github.com/qwen-ai)
+![image-20240611140502328](README/image-20240611140502328.png)

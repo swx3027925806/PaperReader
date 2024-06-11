@@ -67,15 +67,3 @@ class ArxivScraper:
             return prompt % (keyword, info_str)
         except:
             return "prompt error"
-
-
-if __name__ == "__main__":
-    scraper = ArxivScraper()
-    arxiv_text = scraper.search_arxiv()
-    
-    result = scraper.parse_arxiv(arxiv_text)
-    new_prompt = scraper.standardized_input(prompt, result[:64], ["图像压缩算法"])
-    print(new_prompt)
-
-    response = scraper.get_info(new_prompt)
-    print(response)
