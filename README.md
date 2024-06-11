@@ -12,13 +12,14 @@ Paper Reader 帮你找到论文，帮你读论文，帮你写论文。
 
 目前处于最原始的开发版本，仅支持论文检索功能。且未经过复杂验证。
 
-- [x] 论文检索(dev) 2024.06.10
-- [ ] 论文阅读
-- [ ] 论文写作
+| 日期 | 功能 | 状态 | 备注 |
+| ---- | ---- | ---- | ---- |
+| 2024.06.10 | 论文检索开发版本功能 | √ | 论文检索功能，支持大模型API |
+| 2024.06.11 | 界面优化 | √ | 完善布局功能和部分输入输出的格式化 |
 
 ## 支持模型
 
-当前仅支持大模型API，API获取目前支持`dashscope`中的"qwen-max-longcontext", "qwen-max", "qwen-plus", "qwen-turbo"。
+当前仅支持大模型API，API获取目前支持 `dashscope` 中的"qwen-max-longcontext", "qwen-max", "qwen-plus", "qwen-turbo"。
 
 ## 后续计划
 
